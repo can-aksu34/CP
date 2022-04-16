@@ -1,18 +1,19 @@
 import React, { Component } from 'react'
 import "../styles/style.css"
+// import { Link } from "gatsby"
 
 function Menu() {
     return (
     <ul>
-  <li><a href="#">À PROPOS</a></li>
+  <li><a href="/propos/">À PROPOS</a></li>
 
-  <li><a href="#">SERVICES</a></li>
+  <li><a href="/services/">SERVICES</a></li>
 
       
 
-  <li><a href="#">RÉALISATIONS </a></li>
+  <li><a href="/realisations/">RÉALISATIONS </a></li>
 
-  <li><a href="#">CONTACT </a></li>
+  <li><a href="/contact/">CONTACT </a></li>
 </ul>
 
        
