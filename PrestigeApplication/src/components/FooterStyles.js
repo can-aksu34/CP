@@ -1,11 +1,12 @@
 import styled from 'styled-components';
    
 export const Box = styled.div`
-  padding: 40px 60px;
+  padding: 215px 60px;
   background: #F7765B;
-  position: absolute;
-  bottom: 0;
-  width: 70%;
+  
+  bottom: -600px;
+  width: 110%;
+  
   
    
   @media (max-width: 1000px) {
@@ -27,6 +28,9 @@ export const Column = styled.div`
   flex-direction: column;
   text-align: left;
   margin-left: 60px;
+  margin:10px;
+  width:270px;
+  
 `;
    
 export const Row = styled.div`
@@ -34,6 +38,7 @@ export const Row = styled.div`
   grid-template-columns: repeat(auto-fill, 
                          minmax(185px, 1fr));
   grid-gap: 20px;
+  
    
   @media (max-width: 1000px) {
     grid-template-columns: repeat(auto-fill, 
@@ -58,4 +63,5 @@ export const Heading = styled.p`
   color: #fff;
   margin-bottom: 40px;
   font-weight: bold;
+  
 `;

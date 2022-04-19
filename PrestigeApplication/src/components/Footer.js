@@ -16,58 +16,51 @@ const Footer = () => {
                    marginTop: "-50px" }}>
         Travaux revêtement sol et mur
       </h1>
-      <Container>
+      <Container style={{  
+                   marginBottom: "-250px" }}>
         <Row>
           <Column>
-            <Heading>About Us</Heading>
-            <FooterLink href="#">Aim</FooterLink>
-            <FooterLink href="#">Vision</FooterLink>
-            <FooterLink href="#">Testimonials</FooterLink>
+            <Heading>Carrelage Prestige</Heading>
+            <FooterLink>Il se spécialise dans les travaux
+            de carrelage en tout genre partout dans la France. 
+            Grâce au savoir-faire et à la main-d’œuvre de Céramiques ,
+            vous êtes garantis d’obtenir entière satisfaction.</FooterLink>
+           
           </Column>
+          
           <Column>
-            <Heading>Services</Heading>
-            <FooterLink href="#">Writing</FooterLink>
-            <FooterLink href="#">Internships</FooterLink>
-            <FooterLink href="#">Coding</FooterLink>
-            <FooterLink href="#">Teaching</FooterLink>
-          </Column>
-          <Column>
-            <Heading>Contact Us</Heading>
-            <FooterLink href="#">Uttar Pradesh</FooterLink>
-            <FooterLink href="#">Ahemdabad</FooterLink>
-            <FooterLink href="#">Indore</FooterLink>
-            <FooterLink href="#">Mumbai</FooterLink>
-          </Column>
-          <Column>
-            <Heading>Social Media</Heading>
+            <Heading style={{ marginLeft: "80px" }}>Contact</Heading>
             <FooterLink href="#">
-              <i className="fab fa-facebook-f">
-                <span style={{ marginLeft: "10px" }}>
+                <span style={{ marginLeft: "80px" }}>
                   Facebook
                 </span>
-              </i>
+             </FooterLink>
+            <FooterLink href="#" style={{ marginLeft: "80px" }}>Boncoin</FooterLink>
+            <FooterLink href="#" style={{ marginLeft: "80px" }}>Instagram</FooterLink>
+            
+          </Column>
+          <Column>
+            <Heading style={{ marginLeft: "80px" }}>Adresse</Heading>
+            <FooterLink href="#">
+                <span style={{ marginLeft: "10px" }}>4 Rue de Belleville, 31200 Toulouse
+                </span>
+             
             </FooterLink>
             <FooterLink href="#">
               <i className="fab fa-instagram">
                 <span style={{ marginLeft: "10px" }}>
-                  Instagram
+                  Tél: 06.52.40.93.24
                 </span>
               </i>
             </FooterLink>
             <FooterLink href="#">
               <i className="fab fa-twitter">
                 <span style={{ marginLeft: "10px" }}>
-                  Twitter
+                  carrelage.prestige@hotmail.fr
                 </span>
               </i>
             </FooterLink>
-            <FooterLink href="#">
-              <i className="fab fa-youtube">
-                <span style={{ marginLeft: "10px" }}>
-                  Youtube
-                </span>
-              </i>
-            </FooterLink>
+      
           </Column>
         </Row>
       </Container>

@@ -7,6 +7,7 @@ import { Link } from "gatsby"
 import Menu from "../components/Menu.js"
 import Footer from "../components/Footer"
 
+
 const IndexPage = () => (
   <Layout>
     <Menu/>

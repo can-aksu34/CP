@@ -4,6 +4,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #34495e;
+    width: 110%;
 }
 
 li {
@@ -35,7 +36,19 @@ ul li:hover ul{
 li ul li {
     display:block; 
 }
-
+.contact{
+	font-family:sans-serif;
+	
+	margin-top: 4%;
+	color: black;
+	
+}
+.can{
+    height: 500px;
+    width: 1012px;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
 
 
 
