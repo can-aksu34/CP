@@ -10,15 +10,15 @@ const contact = () => (
   <Layout>
     <Menu/>
 
-    <div className="contact">
+    <div className="contact" style={{backgroundColor:`#FFA996`, border: 'solid black'}}>
 
 <center>
-	<fieldset style={{width:"700px"}}> 
+	<fieldset style={{width:`70%`}}> 
 		<legend align="left"><div id="fieldtitre"> Merci de compléter:</div></legend>
  
     <form> 
 	<p>
-	<label for="nom"> Nom</label>
+	<label for="nom"> Nom </label>
 	<input id="nom" type="text" name="nom" required=""/>
 	</p>
 
@@ -60,7 +60,7 @@ const contact = () => (
 
 {/* </fieldset> */}
 </div>
-
+<br/>
 
 <Footer />
 
