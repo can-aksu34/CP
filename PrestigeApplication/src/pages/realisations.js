@@ -16,6 +16,8 @@ const realisations = () => (
     <p>Voici quelques vues de réalisations par Carrelage Prestige</p>
     <Slideshow/>
     <br/>
+    <p>Veuillez vous diriger vers l'onglet Contact pour avoir plus d'informations.</p>
+    <br/><br/>
     <Footer />
    
   </Layout>

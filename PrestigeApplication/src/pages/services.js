@@ -10,7 +10,7 @@ import "../styles/style.css"
 const services = () => (
   <Layout>
      <Menu/>
-     <center><h1>Salle de Bain</h1> </center>
+     <center><h1>Salle de Bain, Cuisines, Piscine...</h1> </center>
      
      <p>Nos professionnels chevronnés chez Carrelage Prestige sont dotés de 25 ans d'expérience dans le remodelage de carreaux de céramique avec des services de remodelage de salle de bain et des produits de haute qualité. Nous vous proposerons des idées de conception et travaillerons efficacement afin de réaliser la salle de bain principale que vous avez toujours voulue. Tout notre travail de rénovation chez Carrelage Prestige CS est garanti, donc pas de soucis.</p>
 

@@ -6,20 +6,27 @@ import { Slide } from 'react-slideshow-image'
 import img1 from '../images/carrelage11.jpg'
 import img2 from '../images/carrelage21.jpg'
 import img3 from '../images/carrelage31.jpg'
+import img4 from '../images/img1.jpg'
+import img5 from '../images/img2.jpg'
+import img6 from '../images/img3.jpg'
 import 'react-slideshow-image/dist/styles.css'
 
 const slideImages = [
     {
-      url: `${img1}`,
-      caption: ' 1'
+      url: `${img4}`,
+      caption: ''
     },
     {
       url:  `${img2}`,
-      caption: '2'
+      caption: ''
     },
     {
-      url: `${img3}`,
-      caption: '3'
+      url:  `${img3}`,
+      caption: ''
+    },
+    {
+      url: `${img5}`,
+      caption: ''
     },
   ];
   

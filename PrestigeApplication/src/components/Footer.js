@@ -30,13 +30,13 @@ const Footer = () => {
           
           <Column>
             <Heading style={{ marginLeft: "80px" }}>Contact</Heading>
-            <FooterLink href="#">
+            <FooterLink href="https://www.facebook.com/carrelageprestige">
                 <span style={{ marginLeft: "80px" }}>
                   Facebook
                 </span>
              </FooterLink>
             <FooterLink href="#" style={{ marginLeft: "80px" }}>Boncoin</FooterLink>
-            <FooterLink href="#" style={{ marginLeft: "80px" }}>Instagram</FooterLink>
+            <FooterLink href="https://www.instagram.com/carrelageprestige" style={{ marginLeft: "80px" }}>Instagram</FooterLink>
             
           </Column>
           <Column>
